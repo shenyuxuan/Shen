@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shen</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="title_activity_myzl">MyzlActivity</string>
+    <string name="title_activity_my_circle">MyCircleActivity</string>
+    <string name="title_activity_my_foot_print">MyFootPrintActivity</string>
+    <string name="title_activity_my_wallet">MyWalletActivity</string>
+    <string name="title_activity_my_shipping_address">MyShippingAddressActivity</string>
+    <string name="title_activity_add_address">AddAddressActivity</string>
+</resources>

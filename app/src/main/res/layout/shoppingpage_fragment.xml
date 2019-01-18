@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/xrv_cart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        ></com.jcodecraeer.xrecyclerview.XRecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <CheckBox
+            android:id="@+id/cb_all"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="全选"/>
+
+        <TextView
+            android:id="@+id/cart_txt_sumprice"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#f20808"
+            android:textSize="17sp"
+            android:text="￥00.00"/>
+        <Button
+            android:id="@+id/btn_js"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="去结算"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:background="#ef8c8c"/>
+    </LinearLayout>
+</LinearLayout>

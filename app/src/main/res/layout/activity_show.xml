@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bw.shen.ShowActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:layout_above="@id/bottom"
+        />
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rectangle"></RelativeLayout>
+    <TextView
+        android:id="@+id/homeapge"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_25"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@drawable/common_tab_btn_home_n_hdpi" />
+
+    <TextView
+        android:id="@+id/findpage"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp_87"
+        android:layout_marginLeft="@dimen/dp_87"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_toRightOf="@id/homeapge"
+        android:background="@drawable/common_tab_btn_circle_n_hdpi" />
+
+    <TextView
+        android:id="@+id/shopcarage"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp_155"
+        android:layout_marginLeft="@dimen/dp_155"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_toRightOf="@id/findpage"
+        android:background="@drawable/commom_tab_btn_shoppin" />
+
+    <TextView
+        android:id="@+id/orderpage"
+        android:layout_width="@dimen/dp_25"
+        android:layout_height="@dimen/dp_25"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/dp_90"
+        android:layout_marginRight="@dimen/dp_90"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@drawable/common_tab_btn_list_n_hdpi" />
+
+    <TextView
+        android:id="@+id/mepage"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_25"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@drawable/common_tab_btn_my_n_hdpi" />
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/vp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginBottom="54dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_above="@+id/bottom_menu"-->
+        <!--android:layout_alignParentBottom="true">-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/bottom_menu"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@drawable/rectangle"-->
+        <!--android:layout_height="110dp">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/homeapge"-->
+            <!--android:checked="true"-->
+            <!--style="@style/main_bottom_btn_style"-->
+            <!--android:drawableTop="@drawable/common_tab_btn_home_n_hdpi"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/findpage"-->
+            <!--style="@style/main_bottom_btn_style"-->
+            <!--android:drawableTop="@drawable/common_tab_btn_circle_n_hdpi"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/shopcarage"-->
+            <!--style="@style/main_bottom_btn_style"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:drawableTop="@drawable/commom_tab_btn_shoppin"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/orderpage"-->
+            <!--style="@style/main_bottom_btn_style"-->
+            <!--android:drawableTop="@drawable/common_tab_btn_list_n_hdpi"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/mepage"-->
+            <!--style="@style/main_bottom_btn_style"-->
+            <!--android:drawableTop="@drawable/common_tab_btn_my_n_hdpi"/>-->
+    <!--</RadioGroup>-->
+<!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/bottom"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/rectangle"&ndash;&gt;-->
+    <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/homepage"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/common_tab_btn_home_n_hdpi"&ndash;&gt;-->
+
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/findpage"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/common_tab_btn_circle_n_hdpi"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/shopcarage"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/commom_tab_btn_shoppin"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/orderpage"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/common_tab_btn_list_n_hdpi"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/mepage"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/common_tab_btn_my_n_hdpi"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<android.support.v4.view.ViewPager&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/vp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_above="@+id/bottom"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;</android.support.v4.view.ViewPager>&ndash;&gt;-->
+</RelativeLayout>
